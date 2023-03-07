@@ -1,0 +1,81 @@
+.Aside {
+    left: 0px;
+}
+
+.aside_body {
+    width: 330px;
+    height: 100vh;
+
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    background-color: #325280;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 로고 */
+.logo {
+    margin-top: 65px;
+}
+
+/* 버튼 */
+.aside_button {
+    margin-top: 60px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img {
+    width: 35px;
+    height: 35px;
+
+    margin-left: 10px;
+    margin-right: 13px;
+}
+
+.aside_button > a {
+    width: 230px;
+    height: 72px;
+
+    border: 0;
+    border-radius: 6px;
+
+    margin-bottom: 15px;
+
+    display: flex;
+    align-items: center;
+
+    text-decoration-line: none;
+
+    background-color: #446697;
+}
+
+.aside_button > a:hover {
+    background-color: #4c70a3;
+
+    cursor: pointer;
+}
+
+.aside_button > a > p {
+    width: 60px;
+
+    margin-top: 3px;
+
+    font-size: 25px;
+
+    color: #FFF;
+}
+
+.aside_button > a > span {
+    margin-top: 3px;
+    margin-left: 72px;
+
+    font-size: 25px;
+
+    color: #FFF;
+}
