@@ -1,0 +1,59 @@
+.login_body {
+    font-size: 1.5vh;
+
+    position: relative;
+
+    margin-left: 9%;
+
+    position: fixed;
+
+    left: 441px;
+    top: 18%;
+}
+
+.login_body > form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* input 부분 */
+input[type=text] {
+    width: 195px;
+    height: 30px;
+
+    padding-left: 10px;
+
+    border: 1px solid #A6A6A6;
+    border-radius: 8px;
+}
+
+input[type=password] { 
+    width: 195px;
+    height: 30px;
+
+    padding-left: 10px;
+
+    border: 1px solid #A6A6A6;
+    border-radius: 8px;
+}
+
+input[type=submit] {
+    width: 206px;
+    height: 30px;
+
+    border: 0;
+    border-radius: 8px;
+
+    font-size: 15px;
+
+    background-color: #446CA6;
+    color: #FFF;
+}
+
+input[type=submit]:hover {
+    cursor: pointer;
+
+    background-color: #507cbe;
+}
