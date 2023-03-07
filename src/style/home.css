@@ -1,0 +1,178 @@
+.calender {
+    font-size: 1.5vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
+    margin-left: 9%;
+
+    position: fixed;
+
+    left: 441px;
+    top: 18%;
+}
+
+/* 연도, 월 부분 */
+.head {
+    width: 870px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.month {
+    width: 180px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.month>h2 {
+    color: #5F5F5F;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* < , > 버튼 */
+.month>button {
+    border: 0;
+    padding: 0;
+
+    margin-bottom: 6px;
+
+    font-size: 30px;
+
+    color: #5F5F5F;
+    background-color: transparent;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.month>button:hover {
+    cursor: pointer;
+}
+
+/* 일정 추가 버튼 */
+/* .add_button {
+    width: 105px;
+    height: 40px;
+
+    font-size: 18px;
+
+    border: 0;
+    border-radius: 40px;
+
+    color: #FFF;
+    background-color: #325280;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.add_button:hover {
+    cursor: pointer;
+}
+
+/* add 모달 창 부분 */
+/* .add {
+    position: absolute;
+
+    z-index: 1;
+} */
+
+/* 요일 부분 */
+.dayOfweek {
+    width: 870px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+    background-color: #325280;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.box {
+    width: 154px;
+    height: 40px;
+}
+
+/* 달력 부분 */
+.body {
+    width: 870px;
+    height: 590px;
+
+    border-collapse: collapse;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.body>tbody>tr>td {
+    border: 1px solid #CDCDCD;
+
+    padding-top: 5px;
+}
+
+.body>tbody>tr>td>span {
+    margin-left: 6px;
+}
+
+.today>span {
+    padding: 2px;
+
+    border-radius: 50%;
+
+    background-color: #325280;
+    color: #FFF;
+}
+
+.day {
+    vertical-align: top;
+}
+
+.dayOfweek_box {
+    width: 157px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    color: #FFF;
+
+    font-size: 16px;
+    font-weight: 105;
+}
