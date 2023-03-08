@@ -9,8 +9,8 @@ const Login = () => {
     return (
         <div className='Login'>
             <div className='login_body'>
-                <img/>
                 <form>
+                    <img className='blue_logo' src='img/blue_logo.png'/>
                     <input type='text' name='id' placeholder='id' />
                     <input type='password' name='password' placeholder='password' />
                     <input type='submit' value='Login' />
