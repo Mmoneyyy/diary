@@ -11,9 +11,9 @@ const Login = () => {
             <div className='login_body'>
                 <form>
                     <img className='blue_logo' src='img/blue_logo.png'/>
-                    <input type='text' name='id' placeholder='id' />
+                    <input type='id' name='id' placeholder='id' />
                     <input type='password' name='password' placeholder='password' />
-                    <input type='submit' value='Login' />
+                    <input className='login_signup_btn' type='submit' value='Login' />
                 </form>
             </div>
             <Aside />
