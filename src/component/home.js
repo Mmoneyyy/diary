@@ -3,6 +3,7 @@ import '../style/home.css';
 
 import Aside from './aside.js';
 import Background from './background.js';
+import Add from './add';
 
 // moment 라이브러리 사용
 import moment from 'moment';
@@ -71,19 +72,11 @@ const Home = () => {
     else return 0;
   }
 
-  // function Add() {
-  //   return (
-  //     <div className='add'>
-  //       <h1>이것은 Add창입니다.</h1>
-  //     </div>
-  //   );
-  // }
-
   return (
     <div className="Home">
-      {/* {
+      {
         add == true ? <Add /> : null
-      } */}
+      }
 
       <div className='calender'>
         <nav className='head'>
@@ -95,9 +88,9 @@ const Home = () => {
           </div>
 
           {/* 일정 추가 버튼 */}
-          {/* <button className='add_button' onClick={() => setAdd(!add)}>
+          <button className='add_button' onClick={() => setAdd(!add)}>
             Add
-          </button> */}
+          </button>
         </nav>
 
         {/* 요일 */}

@@ -1,0 +1,61 @@
+.add {
+    width: 100vw;
+    height: 100vh;
+
+    background-color: rgba(0, 0, 0, 0.17);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+
+    z-index: 10;
+}
+
+.add > form {
+    width: 300px;
+    height: 300px;
+
+    border-radius: 10px;
+
+    background-color: #FFF;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 날짜, 내용 input */
+.date_input {
+
+}
+
+.content_input {
+    
+}
+
+/* 일정 추가 버튼 */
+.add_button {
+    width: 105px;
+    height: 40px;
+
+    font-size: 18px;
+
+    border: 0;
+    border-radius: 40px;
+
+    color: #FFF;
+    background-color: #325280;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.add_button:hover {
+    cursor: pointer;
+}
