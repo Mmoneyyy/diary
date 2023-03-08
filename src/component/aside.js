@@ -13,7 +13,7 @@ const Aside = () => {
                         <p>Login</p>
                         <span>{">"}</span>
                     </Link>
-                    <Link>
+                    <Link to='/signup'>
                         <img className='img' src='img/signup.png' />
                         <p>Signup</p>
                         <span>{">"}</span>
