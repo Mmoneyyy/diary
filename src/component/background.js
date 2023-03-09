@@ -9,6 +9,7 @@ const Background = () => {
                 <div className='board'>
                     <ul className='board_button'>
                         <Link to='/' className='board_home_btn'><li><h4>Home</h4></li></Link>
+                        <Link to='/list' className='board_list_btn'><li><h4>List</h4></li></Link>
                     </ul>
                 </div>
                 <div className='bg_color'></div>
