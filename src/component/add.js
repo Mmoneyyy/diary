@@ -12,7 +12,7 @@ const Add = () => {
                 <form>
                     <input className='date_input' type='text' name='date' placeholder='date' />
                     <input className='content_input' type='text' name='content' placeholder='content' />
-                    <input className='add_button' type='submit' value='Add' />
+                    <input className='add_list' type='submit' value='Add' />
                 </form>
             </div>
             <Aside />
