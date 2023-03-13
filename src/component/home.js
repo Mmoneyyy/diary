@@ -56,20 +56,17 @@ const Home = () => {
   }
 
   // 월 영어로
-  const eng_month = () => {
-    if (today.month() == 0) return 'January';
-    if (today.month() == 1) return 'February';
-    if (today.month() == 2) return 'March';
-    if (today.month() == 3) return 'April';
-    if (today.month() == 4) return 'May';
-    if (today.month() == 5) return 'June';
-    if (today.month() == 6) return 'July';
-    if (today.month() == 7) return 'August';
-    if (today.month() == 8) return 'September';
-    if (today.month() == 9) return 'October';
-    if (today.month() == 10) return 'November';
-    if (today.month() == 11) return 'December';
-    else return 0;
+  const eng_month = (num_month) => {
+    const month = [
+      'January', 'February',
+      'March', 'April',
+      'May', 'June',
+      'July', 'August',
+      'September', 'October',
+      'November', 'December'
+    ];
+
+    return month[num_month];
   }
 
   return (
@@ -83,7 +80,7 @@ const Home = () => {
           {/* 월 */}
           <div className='month'>
             <button onClick={() => { setMoment(getMoment.clone().subtract(1, 'month')) }} >{'<'}</button>
-            <h2>{eng_month()} {today.format('YYYY')}</h2>
+            <h2>{eng_month(today.month())} {today.format('YYYY')}</h2>
             <button onClick={() => { setMoment(getMoment.clone().add(1, 'month')) }} >{'>'}</button>
           </div>
 
